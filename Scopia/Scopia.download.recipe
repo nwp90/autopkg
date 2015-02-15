@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Download recipe for Scopia. Downloads Scopia Client Components.
+Use URL to override default url for download.</string>
+    <key>Identifier</key>
+    <string>com.github.nwp90.autopkg.download.scopia</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>ScopiaClientComponents</string>
+	<key>URL</key>
+	<string>http://sds.karen.net.nz/scopia/entry/pic/ClientComponents.dmg</string>
+   </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+                <key>url</key>
+                <string>%URL%</string>
+            </dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>

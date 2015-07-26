@@ -18,6 +18,7 @@ URL may be overridden.</string>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
+                <string>production</string>
             </array>
             <key>description</key>
             <string>Desktop components required in order to use Scopia.</string>

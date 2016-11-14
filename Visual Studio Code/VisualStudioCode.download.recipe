@@ -5,11 +5,11 @@
 		<key>Description</key>
 		<string>Downloads the current release version of Visual Studio Code.</string>
 		<key>Identifier</key>
-		<string>com.github.valdore86.download.visualstudiocode</string>
+		<string>com.github.nwp90.autopkg.download.visualstudiocode</string>
 		<key>Input</key>
 		<dict>
 			<key>NAME</key>
-			<string>Visual Studio Code</string>
+			<string>visual_studio_code</string>
 		</dict>
 		<key>MinimumVersion</key>
 		<string>0.6.1</string>

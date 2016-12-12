@@ -29,6 +29,8 @@
 				<string>Code combines the streamlined UI of a modern editor with rich code assistance and navigation, and an integrated debugging experience – without the need for a full IDE.</string>
 				<key>developer</key>
 				<string>Microsoft</string>
+				<key>display_name</key>
+				<string>Visual Studio Code</string>
 				<key>name</key>
 				<string>%NAME%</string>
 				<key>unattended_install</key>
